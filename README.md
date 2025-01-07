@@ -122,22 +122,26 @@ CREATE SEQUENCE BATCH_JOB_EXECUTION_SEQ MAXVALUE 9223372036854775807 NO CYCLE;
 CREATE SEQUENCE BATCH_JOB_SEQ MAXVALUE 9223372036854775807 NO CYCLE;
 
 => 
+
 ![image](https://github.com/user-attachments/assets/7ab9f096-251b-455a-9ada-30b95cb2c061)
 
 
 to check the add of the table and sequences:
 use :  \d
+
 ![image](https://github.com/user-attachments/assets/223e0181-f44d-4a86-9bd3-207821a4c16a)
 
 
 or easily : 
 docker run --name postgres-container -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=postgres -p 5432:5432 -d postgres
+
 ![image](https://github.com/user-attachments/assets/35cca9b3-ffc1-47ea-9bbe-ac4fcd71857f)
 
 
 ![image](https://github.com/user-attachments/assets/1d912b60-b8cc-429b-9cb9-2cea541bf632)
 
 docker exec -it postgres-container psql -U postgres -d postgres
+
 ![image](https://github.com/user-attachments/assets/859ddd47-793f-4835-8abe-0f7ef7a68cc8)
 
 to exit the command line use : \q

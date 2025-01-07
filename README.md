@@ -28,7 +28,9 @@ docker pull postgres
 ![image](https://github.com/user-attachments/assets/9175adcd-b888-42ef-b493-5ac73479d575)
 
 and run it :
-docker run -d --name postgresCont -p 5432:5432 -e POSTGRES_PASSWORD=pass123 postgres
+docker run -d --name postgresCont -p 5432:5432 POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=postgres postgres
+
+-e parameters value can be anything you want 
 ![image](https://github.com/user-attachments/assets/245b3f7b-8e13-46df-8022-43e316030a64)
 
 ![image](https://github.com/user-attachments/assets/a3ccc5fe-3523-49cb-a020-89f873e085e3)
@@ -40,6 +42,9 @@ to check the container use : docker ps
 
 now lets Interact With Executing Container:
 
+docker exec -it postgres-container psql -U postgres -d postgres 
+
+where the postgres-container is the name of the container runnger 
 ![image](https://github.com/user-attachments/assets/9827928e-3f7a-4f92-b2c7-62ff278c1972)
 
 ![image](https://github.com/user-attachments/assets/51c741ff-9182-4186-bf10-0e656b7b2832)
@@ -125,5 +130,17 @@ use :  \d
 ![image](https://github.com/user-attachments/assets/223e0181-f44d-4a86-9bd3-207821a4c16a)
 
 
+or easily : 
+docker run --name postgres-container -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=postgres -p 5432:5432 -d postgres
+![image](https://github.com/user-attachments/assets/35cca9b3-ffc1-47ea-9bbe-ac4fcd71857f)
+
+
+![image](https://github.com/user-attachments/assets/1d912b60-b8cc-429b-9cb9-2cea541bf632)
+
+docker exec -it postgres-container psql -U postgres -d postgres
+![image](https://github.com/user-attachments/assets/859ddd47-793f-4835-8abe-0f7ef7a68cc8)
+
+to exit the command line use : \q
+![image](https://github.com/user-attachments/assets/5456fe3b-49b0-4a34-ba75-1f7a73eca88b)
 
 

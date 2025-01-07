@@ -132,8 +132,8 @@ use :  \d
 ![image](https://github.com/user-attachments/assets/223e0181-f44d-4a86-9bd3-207821a4c16a)
 
 
-or easily : 
-docker run --name postgres-container -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=postgres -p 5432:5432 -d postgres
+or easily :  postgres:17-alpine
+docker run --name postgres-container -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=pass1234 -e POSTGRES_DB=postgres -p 5432:5432 -d postgres
 
 ![image](https://github.com/user-attachments/assets/35cca9b3-ffc1-47ea-9bbe-ac4fcd71857f)
 
@@ -146,5 +146,8 @@ docker exec -it postgres-container psql -U postgres -d postgres
 
 to exit the command line use : \q
 ![image](https://github.com/user-attachments/assets/5456fe3b-49b0-4a34-ba75-1f7a73eca88b)
+
+
+![image](https://github.com/user-attachments/assets/73a98c9e-8835-4974-a748-2842eeb447d8)
 
 

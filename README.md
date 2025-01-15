@@ -158,4 +158,80 @@ Module 1 : CREATE , RUN AND TEST YOUR JOB
 ![image](https://github.com/user-attachments/assets/a5dd8d90-00d0-415e-8c51-3261f8442360)
 
 
+![image](https://github.com/user-attachments/assets/7b5d565f-0d4d-4083-9d22-fe043d784022)
+
+
+![image](https://github.com/user-attachments/assets/3d3a28c3-c924-4f59-9cff-1efbf2ee4590)
+![image](https://github.com/user-attachments/assets/fdd9abeb-a3ad-48f8-918d-036dc33862fd)
+
+Lab: Implement Your First Job:
+
+![image](https://github.com/user-attachments/assets/9ce87fee-ae2b-46ce-b511-b2c7cc948921)
+![image](https://github.com/user-attachments/assets/513490a0-2d01-46f5-99e5-4082d1a148f0)
+![image](https://github.com/user-attachments/assets/c75fc470-0042-4ae2-843c-3a05d40ef2e5)
+
+![image](https://github.com/user-attachments/assets/ef02c3cf-0805-4760-92f3-d2f621599c5a)
+
+![image](https://github.com/user-attachments/assets/047192db-b915-439e-8db4-68e008218dac)
+
+![image](https://github.com/user-attachments/assets/04b98f4b-0297-4d12-b288-60ab0e5bdc10)
+![image](https://github.com/user-attachments/assets/b0a73aa0-c394-4c2d-96d0-634dd21698bf)
+
+in my local whe running the application:
+![image](https://github.com/user-attachments/assets/6ab4eabb-f4a9-44f5-b573-3b1a0a7382dc)
+
+
+![image](https://github.com/user-attachments/assets/ee9494bd-4610-48bb-a848-41b9c7928227)
+
+in my local test:
+![image](https://github.com/user-attachments/assets/53a06537-0157-4fe1-a766-21f6aacb9fe4)
+
+![image](https://github.com/user-attachments/assets/f3a9b721-6ccd-4dc1-bdd2-70bfd0170705)
+
+and we can check that in dbeaver also
+![image](https://github.com/user-attachments/assets/ff0d4e1d-2895-4315-bd82-0179886483ce)
+![image](https://github.com/user-attachments/assets/60da7e28-1b1f-4f1f-823f-9cf1c000fee6)
+![image](https://github.com/user-attachments/assets/99c89e35-ac62-44ba-b8b7-dcdc8795fb7e)
+![image](https://github.com/user-attachments/assets/1bed5c1a-5949-4a34-a0d8-656e0bb08e46)
+![image](https://github.com/user-attachments/assets/cf65662c-b6bb-4422-9a52-04bd557fab2f)
+![image](https://github.com/user-attachments/assets/27bf43b6-f144-4cfe-a405-39bc8321e564)
+
+![image](https://github.com/user-attachments/assets/e91c5f9d-db02-429c-a598-c2e181ad768e)
+![image](https://github.com/user-attachments/assets/6248d32f-4bed-41a7-813f-8fc56f713ad6)
+
+and rerun the application:
+i delete the table manually from dbeaver because the script does not work in my local:
+![image](https://github.com/user-attachments/assets/914f751b-de5c-4dfb-b565-9fccfe44bc29)
+
+and let s replay the script on top:
+![image](https://github.com/user-attachments/assets/41690df7-eaa9-4a0a-b64f-2eb38592b94d)
+it is created again :
+![image](https://github.com/user-attachments/assets/d9d7b6d4-39fa-4c33-8f07-3364383b093d)
+
+lets rerun the app
+![image](https://github.com/user-attachments/assets/e4391e54-1f03-44e2-8e79-bdc1781e9d5a)
+![image](https://github.com/user-attachments/assets/c5e53c4b-ba36-4d87-a9f4-f268612fbaf6)
+
+and the status are updated:
+![image](https://github.com/user-attachments/assets/e2b2c3b9-aaad-44cd-893e-264d26d3e860)
+
+![image](https://github.com/user-attachments/assets/d467cc28-f239-449c-b4c9-194acd07a269)
+
+
+![image](https://github.com/user-attachments/assets/3e2fa516-ffbe-42f3-aa62-2ddd4a76d0c5)
+
+in my local:
+
+![image](https://github.com/user-attachments/assets/b9f4e6c2-2cbc-4a8d-bd11-d4368e5979b1)
+![image](https://github.com/user-attachments/assets/bb6564f8-67f5-4a01-9400-d745b6b19f42)
+
+
+![image](https://github.com/user-attachments/assets/7b8da886-7964-4ca2-be4a-6b7895852758)
+
+![image](https://github.com/user-attachments/assets/89612f54-3ba8-4119-91a1-cbbd5fc54423)
+
+![image](https://github.com/user-attachments/assets/66bec80b-3768-407a-8473-2ba0cf3984b8)
+
+
+
 

@@ -267,6 +267,8 @@ in tutoriel:
 ![image](https://github.com/user-attachments/assets/1b00de1b-f486-4fab-80a4-2d9e2515d164)
 
 in local:
+![image](https://github.com/user-attachments/assets/43b51cc6-bed0-47e0-b70f-c3fa1298637b)
+
 ![image](https://github.com/user-attachments/assets/ac176a13-60a6-45b6-875f-def90e8438eb)
 ![image](https://github.com/user-attachments/assets/3dd72c4c-a1e6-4a21-82a2-319ea50ad655)
 

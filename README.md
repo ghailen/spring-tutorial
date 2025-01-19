@@ -339,6 +339,22 @@ the second time we will get again :
 
 ![image](https://github.com/user-attachments/assets/fff4a672-565e-4486-8f80-0fdf3acf24a4)
 
+![image](https://github.com/user-attachments/assets/cab30e1f-ab6c-4aec-9eea-0aca696b825e)
+
+![image](https://github.com/user-attachments/assets/42ace8d4-b437-4c57-89e0-c92dcc8bc3d0)
+![image](https://github.com/user-attachments/assets/4df77983-f24c-4e97-ae28-b10f4c51ccbc)
+
+![image](https://github.com/user-attachments/assets/98af54b2-5791-450c-a15c-6d4f03cb47de)
+
+![image](https://github.com/user-attachments/assets/ce08342a-45f0-4714-89ee-c25a9ba0be2d)
+
+it works now even whithout using this.jobRepositoryTestUtils.removeJobExecutions() because we added this.jobLauncherTestUtils.getUniqueJobParametersBuilder(). => so the parameter are unique in every excution.
+![image](https://github.com/user-attachments/assets/5c6e793f-d0ef-427b-b66c-1849a0aac968)
+
+![image](https://github.com/user-attachments/assets/29f69ca4-1106-4256-984d-4d4233b434ff)
+
+![image](https://github.com/user-attachments/assets/8ed97187-e56e-46e0-80f0-fceaf5a8cc65)
+
 
 
 

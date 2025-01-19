@@ -353,7 +353,18 @@ it works now even whithout using this.jobRepositoryTestUtils.removeJobExecutions
 
 ![image](https://github.com/user-attachments/assets/29f69ca4-1106-4256-984d-4d4233b434ff)
 
+![image](https://github.com/user-attachments/assets/8c8947d8-afad-4aab-90f7-0d3fa2e7c782)
+
 ![image](https://github.com/user-attachments/assets/8ed97187-e56e-46e0-80f0-fceaf5a8cc65)
+
+rerun the test after readding :  this.jobRepositoryTestUtils.removeJobExecutions();
+in database the parameters are deleted and a new one are created after the recexcution of the test:
+
+![image](https://github.com/user-attachments/assets/c16f8bb0-d496-4b95-8cd4-7abd989bd74f)
+![image](https://github.com/user-attachments/assets/7009fcda-6d50-4f53-8e79-073faa947389)
+
+
+Module 2 :  Structure your job with steps :
 
 
 

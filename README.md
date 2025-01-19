@@ -379,6 +379,8 @@ Module 2 :  Structure your job with steps :
 ![image](https://github.com/user-attachments/assets/43f01343-dc05-4a4e-ada0-b56c8eec37b7)
 
 
+![image](https://github.com/user-attachments/assets/6b179be1-6acf-404e-984e-45e2a6d363b8)
+
 
 
 

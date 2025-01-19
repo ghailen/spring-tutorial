@@ -322,6 +322,28 @@ even when adding parameters we still get the error:
 
 ![image](https://github.com/user-attachments/assets/e8d024fa-fa0e-4906-b5bf-d95f2c56237a)
 
+![image](https://github.com/user-attachments/assets/5808aee6-43f0-4ec3-a15c-cc594f66b4bf)
+
+![image](https://github.com/user-attachments/assets/4640b351-932b-48e5-b392-9c1d6e5cbfe7)
+
+![image](https://github.com/user-attachments/assets/8069e58b-f08f-4101-904a-cf05d8bbe015)
+
+![image](https://github.com/user-attachments/assets/b4665700-a76c-4b0a-b0a3-d2c4892cf2eb)
+
+dont forget to delete the databse and add it again , because the old instance still exists.
+because we got the error Job already exist.
+nwo rerun the test job :
+![image](https://github.com/user-attachments/assets/6963d7c1-7e9b-4886-8e89-e3d5cf8e2a5e)
+the second time we will get again : 
+![image](https://github.com/user-attachments/assets/5732e141-66ac-4b87-bec3-0fab18cfa88d)
+
+![image](https://github.com/user-attachments/assets/fff4a672-565e-4486-8f80-0fdf3acf24a4)
+
+
+
+
+
+
 
 
 

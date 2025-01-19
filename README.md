@@ -366,6 +366,13 @@ in database the parameters are deleted and a new one are created after the recex
 
 Module 2 :  Structure your job with steps :
 
+![image](https://github.com/user-attachments/assets/4ce836d1-1c3f-48d9-97ad-bc36e0d136ac)
+
+![image](https://github.com/user-attachments/assets/311aa3a1-5e5c-4775-87e5-b354f5169a08)
+
+![image](https://github.com/user-attachments/assets/5925da9a-e6c9-4b47-b4e7-fff6c5245e3e)
+
+
 
 
 

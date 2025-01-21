@@ -381,6 +381,15 @@ Module 2 :  Structure your job with steps :
 
 ![image](https://github.com/user-attachments/assets/6b179be1-6acf-404e-984e-45e2a6d363b8)
 
+![image](https://github.com/user-attachments/assets/f0ee9624-eb97-42ec-8f5d-b1dfa43e0611)
+
+![image](https://github.com/user-attachments/assets/f7b9b202-3ce5-4708-99a3-a32e7bc357c2)
+
+![image](https://github.com/user-attachments/assets/91663be0-2152-4c67-9cac-016e62a2b846)
+
+![image](https://github.com/user-attachments/assets/2998e3d9-fcf0-4f5b-80b6-152ffb9017bd)
+![image](https://github.com/user-attachments/assets/fc249aec-2f23-400d-b720-c361532665c0)
+
 
 
 

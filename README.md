@@ -391,6 +391,33 @@ Module 2 :  Structure your job with steps :
 ![image](https://github.com/user-attachments/assets/fc249aec-2f23-400d-b720-c361532665c0)
 
 
+The method provided in course does not work , when reading the file so i changed it by this code:
+![image](https://github.com/user-attachments/assets/e70c6c82-69d8-49b2-bfc0-5f5b893bac83)
+
+![image](https://github.com/user-attachments/assets/2e7d40db-bf9c-48c2-af48-252758b39b13)
+
+![image](https://github.com/user-attachments/assets/60282e75-4899-4bbf-bcb9-172a6f09495f)
+
+java -jar target/billing-job-0.0.1-SNAPSHOT.jar input.file=billing-2023-01.csv
+
+![image](https://github.com/user-attachments/assets/1fa86736-61a4-4abc-a485-92249a88726a)
+
+![image](https://github.com/user-attachments/assets/97c907ec-71f6-45a5-a88b-be56dc866f84)
+
+![image](https://github.com/user-attachments/assets/f9705985-a26a-4cf7-81c6-f7932919baa7)
+
+![image](https://github.com/user-attachments/assets/4a7f2e20-7537-4b22-bf97-d8dd0f16d85f)
+
+for the test, it is already updated , after the changement i done: 
+![image](https://github.com/user-attachments/assets/0e41ef33-8d8a-443d-8aca-7153fde07969)
+=> OK
+![image](https://github.com/user-attachments/assets/38494edc-02df-4d21-83fd-907e5fe1155d)
+
+https://docs.spring.io/spring-batch/docs/5.0.4/reference/html/job.html#jobparametersvalidator
+![image](https://github.com/user-attachments/assets/2f7e5121-64d3-4836-a2f5-78adc753d559)
+
+
+
 
 
 

@@ -415,6 +415,12 @@ for the test, it is already updated , after the changement i done:
 
 https://docs.spring.io/spring-batch/docs/5.0.4/reference/html/job.html#jobparametersvalidator
 ![image](https://github.com/user-attachments/assets/2f7e5121-64d3-4836-a2f5-78adc753d559)
+![image](https://github.com/user-attachments/assets/94f73fde-8184-43c4-a526-f8f3ecea87aa)
+![image](https://github.com/user-attachments/assets/e6179dc8-2a4a-4d6f-913c-cc9047669b55)
+![image](https://github.com/user-attachments/assets/3b1f5479-08de-47e3-9bc3-4a2b57e34959)
+![image](https://github.com/user-attachments/assets/8e8da4b5-616a-4542-a0f7-841c98923bee)
+![image](https://github.com/user-attachments/assets/6fdbf1e0-befd-4cf3-92c7-5a793d79a6db)
+![image](https://github.com/user-attachments/assets/505303ad-afb4-472c-bde5-9061f70dc26a)
 
 
 

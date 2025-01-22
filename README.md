@@ -422,7 +422,9 @@ https://docs.spring.io/spring-batch/docs/5.0.4/reference/html/job.html#jobparame
 ![image](https://github.com/user-attachments/assets/6fdbf1e0-befd-4cf3-92c7-5a793d79a6db)
 ![image](https://github.com/user-attachments/assets/505303ad-afb4-472c-bde5-9061f70dc26a)
 
-
+LAB :
+![image](https://github.com/user-attachments/assets/f241aa58-2a12-484a-9f91-27a05d321227)
+![image](https://github.com/user-attachments/assets/3e20b566-31de-4e9b-a3fb-69d3dd21f085)
 
 
 

@@ -491,6 +491,17 @@ LAB :
 ![image](https://github.com/user-attachments/assets/6f555f55-0697-4c03-8bcb-0be46568978d)
 ![image](https://github.com/user-attachments/assets/68a32f53-2c6e-435a-9dc7-fc52f3edea5d)
 ![image](https://github.com/user-attachments/assets/43cbda36-323d-42d0-a62d-c5cc184edf01)
+![image](https://github.com/user-attachments/assets/b0073bf7-968a-4989-ad28-c0b4d9812df9)
+in local:
+![image](https://github.com/user-attachments/assets/7ed88d3c-3507-41f1-8f39-67e09998078c)
+![image](https://github.com/user-attachments/assets/a4d08fdb-a9e2-436b-9e71-bc8ec34a940f)
+in local:
+![image](https://github.com/user-attachments/assets/9a252956-fc28-4ee5-846f-c9143d0d72b0)
+![image](https://github.com/user-attachments/assets/1a6cfd10-9fd6-46c7-9605-b1942e5d2416)
+![image](https://github.com/user-attachments/assets/f16b6162-871a-4ff2-ace4-c1443120ad82)
+![image](https://github.com/user-attachments/assets/3d0df485-6b67-450c-8ea1-838c2ff7c2f1)
+![image](https://github.com/user-attachments/assets/dff0f57e-9229-4bde-990f-635c48a6acc3)
+
 
 
 

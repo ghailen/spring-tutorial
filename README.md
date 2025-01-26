@@ -455,6 +455,23 @@ java -jar target/billing-job-0.0.1-SNAPSHOT.jar input.file=billing-2023-01.csv
 ![image](https://github.com/user-attachments/assets/74c8454c-6c5b-461d-8d9e-ac672a21b7b8)
 
 all is good.
+![image](https://github.com/user-attachments/assets/79a1913e-87ed-4aae-a1b9-f851d846331d)
+![image](https://github.com/user-attachments/assets/78e5fdac-28fb-42aa-b883-de8b5c4dac36)
+![image](https://github.com/user-attachments/assets/588f2d7d-fe81-422c-948a-50572449bf3e)
+![image](https://github.com/user-attachments/assets/bc437b2e-9b1b-47b7-91c7-785adb1a87b2)
+
+in local:
+![image](https://github.com/user-attachments/assets/a065d9d3-027e-405c-9521-089457364735)
+
+same error.
+so let s clean the table in setUp () method because we use the same database as mentionned in tutorial:
+JdbcTestUtils.deleteFromTables(this.jdbcTemplate, "BILLING_DATA");
+
+now its work :
+![image](https://github.com/user-attachments/assets/9f8f4d63-3de1-4ed8-a376-340191c2b441)
+![image](https://github.com/user-attachments/assets/c2839668-7267-49c6-ac00-5372427f74a2)
+
+
 
 
 

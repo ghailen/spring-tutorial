@@ -447,9 +447,14 @@ in local :
 ![image](https://github.com/user-attachments/assets/a588a1bd-aa2f-4991-a4e7-fb1eb6cc9546)
 It worked!
 
+in local :
+before execution of the job dont forget to clean instance with the same parameter or run the jobRepositoryTestUtils.removeJobExections();
+![image](https://github.com/user-attachments/assets/c8515a97-f917-4a7e-8b91-4be25076deec)
+java -jar target/billing-job-0.0.1-SNAPSHOT.jar input.file=billing-2023-01.csv
+![image](https://github.com/user-attachments/assets/7f7433ec-ffcd-4da5-a132-b467f30407f0)
+![image](https://github.com/user-attachments/assets/74c8454c-6c5b-461d-8d9e-ac672a21b7b8)
 
-
-
+all is good.
 
 
 

@@ -502,6 +502,42 @@ in local:
 ![image](https://github.com/user-attachments/assets/3d0df485-6b67-450c-8ea1-838c2ff7c2f1)
 ![image](https://github.com/user-attachments/assets/dff0f57e-9229-4bde-990f-635c48a6acc3)
 
+*** Batch Scoped Components ***
+![image](https://github.com/user-attachments/assets/0af22b5a-6afd-45f8-b914-9cb42e5489b2)
+![image](https://github.com/user-attachments/assets/ed835c45-fe6a-4bdb-acee-a161ab9e78ec)
+![image](https://github.com/user-attachments/assets/4faefe8d-151f-47c9-be09-04ba4c3332f0)
+LAB:
+![image](https://github.com/user-attachments/assets/e4728025-52e3-4f6b-85e1-b78367099ee0)
+![image](https://github.com/user-attachments/assets/fb22f4d5-aae6-480b-b252-c6d4c76582f0)
+![image](https://github.com/user-attachments/assets/bd4eaf97-6d01-466a-9834-2864db57f1da)
+![image](https://github.com/user-attachments/assets/be105e4d-d1a2-44af-be34-07e6bba3ba10)
+![image](https://github.com/user-attachments/assets/4cce4f1f-537d-4754-8e00-4fc8b87b5cab)
+![image](https://github.com/user-attachments/assets/d5c2cfb1-4a5a-47cf-8528-0bf2165f1008)
+![image](https://github.com/user-attachments/assets/694e442c-2568-4346-a845-e04ddede941a)
+![image](https://github.com/user-attachments/assets/7b9827f0-208a-4dde-9d71-6a0f92691809)
+![image](https://github.com/user-attachments/assets/e1c10480-5b3e-470d-9311-dce2bb2f1d11)
+![image](https://github.com/user-attachments/assets/4ae5e5fa-b0ad-483f-82ab-66dbd4fa9b15)
+![image](https://github.com/user-attachments/assets/d77ea2d4-ece1-4209-86f6-498030b66ede)
+
+command : java -jar target/billing-job-0.0.1-SNAPSHOT.jar input.file=billing-2023-01.csv output.file=staging/billing-report-2023-01.csv data.year=2023 data.month=1
+![image](https://github.com/user-attachments/assets/1ec7e2d0-fabe-4a1f-8278-98dd7e94e1b5)
+
+now with the second file: java -jar target/billing-job-0.0.1-SNAPSHOT.jar input.file=billing-2023-02.csv output.file=staging/billing-report-2023-02.csv data.year=2023 data.month=2
+![image](https://github.com/user-attachments/assets/76fdda38-2268-4508-ae03-514cb3fef5d3)
+
+as we can see all file are generated :
+![image](https://github.com/user-attachments/assets/f0493296-8bad-4470-8a2b-255481089922)
+
+![image](https://github.com/user-attachments/assets/6900a267-e458-46d3-8f21-efae44f39ab2)
+in local:
+![image](https://github.com/user-attachments/assets/124be052-fbce-4383-b406-2dc2f3fb4b68)
+![image](https://github.com/user-attachments/assets/4aaad9dd-b7e6-444f-8b46-51b42f0c8b21)
+
+
+
+
+
+
 
 
 

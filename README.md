@@ -562,6 +562,37 @@ Next, let's inspect the metadata of Spring Batch to understand what happened wit
 
 This data can be very valuable, especially if you need to debug how and where job failures are occurring in your jobs.
 ![image](https://github.com/user-attachments/assets/93928af4-194e-41fb-9cf7-a2f0ab47baba)
+![image](https://github.com/user-attachments/assets/4b76c1f7-c175-4f4c-94b2-dcebf7ef3f84)
+![image](https://github.com/user-attachments/assets/cdfc8a36-91cc-4b74-8cdd-931d0e747bd7)
+![image](https://github.com/user-attachments/assets/e861d417-2fc4-4a0a-b59e-6cb79c65ade3)
+![image](https://github.com/user-attachments/assets/c425d3c6-cce1-4d3e-a3e0-55b456b075da)
+
+LAB:
+![image](https://github.com/user-attachments/assets/a4f7ea8d-4ce4-4446-a3bb-c290fe8e41e0)
+![image](https://github.com/user-attachments/assets/58eb0fe5-3cf1-45d8-b455-253ef499c8f4)
+![image](https://github.com/user-attachments/assets/3b497d42-71ae-44d4-be3e-fbcd3a50533a)
+![image](https://github.com/user-attachments/assets/7012b2c4-041d-4b9d-a36e-7161594a518e)
+![image](https://github.com/user-attachments/assets/6d9de40b-1d4b-4a6f-aefc-5c54a6304cdb)
+![image](https://github.com/user-attachments/assets/877b2b53-6b0b-4ac5-a83b-48ec7f665ff9)
+![image](https://github.com/user-attachments/assets/f2ee92d6-e97a-43ec-b9be-a5f7f0d53ade)
+![image](https://github.com/user-attachments/assets/daddaff5-3303-481e-835d-af50c26eca77)
+![image](https://github.com/user-attachments/assets/2fb1e02d-a223-4288-a70e-a400b824cc74)
+in local command : 
+java -jar target/billing-job-0.0.1-SNAPSHOT.jar input.file=billing-2023-03.csv output.file=staging/billing-report-2023-03.csv skip.file=staging/billing-data-skip-2023-03.psv data.year=2023 data.month=3
+![image](https://github.com/user-attachments/assets/95c0bd8a-9c80-469a-bdd7-64a06d4db0ed)
+![image](https://github.com/user-attachments/assets/88d38aa4-15a4-4aa3-b86e-e3492dd66156)
+![image](https://github.com/user-attachments/assets/3a6a9798-3a94-4802-9b1b-35cb67217f4b)
+
+![image](https://github.com/user-attachments/assets/30514cbc-fd70-41d5-9563-d231d2cb1325)
+![image](https://github.com/user-attachments/assets/68216506-7e77-42f0-afc1-de23b89fc333)
+
+![image](https://github.com/user-attachments/assets/16bfafef-6ac3-4892-bb4b-78ee826e536c)
+
+
+
+
+
+
 
 
 

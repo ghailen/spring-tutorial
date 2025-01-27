@@ -592,6 +592,30 @@ LAB:
 ![image](https://github.com/user-attachments/assets/60027ebc-0f70-43c3-80f6-2a2225f97ab1)
 
 
+![image](https://github.com/user-attachments/assets/e7292356-e664-49e7-9534-c9dafaab3a8f)
+
+![image](https://github.com/user-attachments/assets/f518cc26-c1c1-4c46-aa32-66b342be1584)
+
+
+![image](https://github.com/user-attachments/assets/604ed418-11b6-4d64-a4f4-a63dc37d1477)
+
+![image](https://github.com/user-attachments/assets/86d1480b-548c-4476-963e-582b9ab30c8d)
+![image](https://github.com/user-attachments/assets/0045aedd-519b-4556-ac54-cc5cd9b9fb2a)
+![image](https://github.com/user-attachments/assets/a50d4a59-403e-42f0-a3ae-415ebe530fd4)
+![image](https://github.com/user-attachments/assets/88f48d0a-d956-4ffa-b8b4-2a5f82da51fe)
+![image](https://github.com/user-attachments/assets/3f84ab97-23eb-4f0e-819c-a0c5167c3da4)
+command: java -jar target/billing-job-0.0.1-SNAPSHOT.jar input.file=billing-2023-04.csv output.file=staging/billing-report-2023-04.csv skip.file=staging/billing-data-skip-2023-04.psv data.year=2023 data.month=4
+
+![image](https://github.com/user-attachments/assets/0ac24097-4a8d-4fc5-9c12-137f98323b5e)
+![image](https://github.com/user-attachments/assets/c7789d44-67c8-4e62-b7ed-be28c9a06a1e)
+![image](https://github.com/user-attachments/assets/3a8dae78-37c0-449f-9b0b-27d573ba8259)
+
+is works with retry :
+![image](https://github.com/user-attachments/assets/ebc6a8c3-cf69-43b9-a034-ff518093b328)
+
+![image](https://github.com/user-attachments/assets/730461af-9ee7-47c3-970f-5153c15c99d4)
+
+![image](https://github.com/user-attachments/assets/b5eeb8b4-cedf-4cd3-9ff6-cef70d04d0ff)
 
 
 

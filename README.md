@@ -588,6 +588,8 @@ java -jar target/billing-job-0.0.1-SNAPSHOT.jar input.file=billing-2023-03.csv o
 
 ![image](https://github.com/user-attachments/assets/16bfafef-6ac3-4892-bb4b-78ee826e536c)
 
+LAB:
+![image](https://github.com/user-attachments/assets/60027ebc-0f70-43c3-80f6-2a2225f97ab1)
 
 
 
@@ -598,7 +600,7 @@ java -jar target/billing-job-0.0.1-SNAPSHOT.jar input.file=billing-2023-03.csv o
 
 
 
-
+                  
 
 
 

@@ -534,6 +534,36 @@ in local:
 ![image](https://github.com/user-attachments/assets/4aaad9dd-b7e6-444f-8b46-51b42f0c8b21)
 
 
+*** MAKE your job tolerant to faults ***
+![image](https://github.com/user-attachments/assets/0059e525-c33f-4541-968b-ec12112878cb)
+![image](https://github.com/user-attachments/assets/37cc41d3-c9e3-4640-bc49-db5d3a1cb830)
+
+LAB:
+![image](https://github.com/user-attachments/assets/2362024b-cd7b-4e63-a33a-594b9cfae90d)
+![image](https://github.com/user-attachments/assets/5b11c63f-26ce-499e-ba18-7efe2a6972bb)
+![image](https://github.com/user-attachments/assets/a8bc9419-e968-499e-8009-928a58c50fc2)
+![image](https://github.com/user-attachments/assets/4440e399-5036-4a2b-b44c-603b4d24f274)
+
+in local i got the same error:
+![image](https://github.com/user-attachments/assets/0593f2e6-2d8d-43e7-a886-a7942f3f25b0)
+the error is here :
+![image](https://github.com/user-attachments/assets/2f801990-2277-4f04-a3f9-7cf10fa190a2)
+Type is not correct
+![image](https://github.com/user-attachments/assets/12e133fc-00f5-4a1c-bd54-96c290a91750)
+![image](https://github.com/user-attachments/assets/89d25836-6d6a-4e51-9a4e-e5f26f88e112)
+![image](https://github.com/user-attachments/assets/f2afcce9-6f9e-483a-ab8c-263bd11bd9a3)
+![image](https://github.com/user-attachments/assets/b90556c6-9ccd-4882-af2f-52451371d156)
+all is good
+Next, let's inspect the metadata of Spring Batch to understand what happened with all of our job runs.
+![image](https://github.com/user-attachments/assets/659e003a-f611-4870-9a6d-7ea70d595070)
+![image](https://github.com/user-attachments/assets/6ffcfc52-83aa-405d-85d1-eb2d78088330)
+![image](https://github.com/user-attachments/assets/e28e5a90-d21d-436d-aaa6-51a2ec1f485a)
+![image](https://github.com/user-attachments/assets/7d7f6750-9670-41bd-b59b-ba172d97260b)
+
+This data can be very valuable, especially if you need to debug how and where job failures are occurring in your jobs.
+![image](https://github.com/user-attachments/assets/93928af4-194e-41fb-9cf7-a2f0ab47baba)
+
+
 
 
 

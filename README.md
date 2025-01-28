@@ -618,9 +618,184 @@ is works with retry :
 ![image](https://github.com/user-attachments/assets/b5eeb8b4-cedf-4cd3-9ff6-cef70d04d0ff)
 
 
+========================================ADDING A new job ========================================
+i added new job name voitureJob:
+![image](https://github.com/user-attachments/assets/8a16424e-8277-4ea3-9bd3-8121c67df9ca)
+it will just print : processing voiture information
+we added the new job in BuillingJobConfgurationJob , the name can be changed because i want to add it to the same config job file:
+![image](https://github.com/user-attachments/assets/2283bf5a-d0bc-426a-b6d1-4b3760fd95d3)
+
+it better to make the name of the method like the name of the job to avoid problem , in my case i put the name of the job in uppercase to i cannot put the name method in uppercase so i added @Bean(name=xxx)
+     @Bean(name = "VoitureJob")
+  ```html
+ /** rename the method to VoitureJob or add @Bean(name = "VoitureJob") to make is work **/
+    @Bean(name = "VoitureJob")
+    public Job jobVoiture(JobRepository jobRepository) {
+        return new VoitureJob(jobRepository);
+    }
+
+    /** rename the method to BillingJob or add @Bean(name = "BillingJob") to make is work **/
+    @Bean(name = "BillingJob")
+    public Job jobBilling(JobRepository jobRepository,Step step1,Step step2,Step step3) {
+        return new JobBuilder("BillingJob", jobRepository)
+                .start(step1)
+                .next(step2)
+                .next(step3)
+                .build();
+    }
+
+```
+go to application.prop and add spring.batch.job.enabled=false
+![image](https://github.com/user-attachments/assets/685a48ff-64b3-4fb5-9c83-7809557f69ae)
+=> in order to not lunch the job when starting the application.
+
+now in the main application class:
+add : @EnableBatchProcessing annotaiton to class
+make the class implements CommandLineRunner
+autowire :
+@Autowired
+	private JobLauncher jobLauncher;
+
+	@Autowired
+	private ApplicationContext applicationContext;
+
+then add this method run () 
+
+ ```html
+@Override
+	public void run(String... args) throws Exception {
+		if (args.length == 0) {
+			throw new IllegalArgumentException("No job name provided!");
+		}
+
+		// Extract job name from arguments
+		String jobName = args[0]; // The first argument is the job name
+
+		// Attempt to get the job bean by name
+		Job job;
+		try {
+			job = applicationContext.getBean(jobName, Job.class);
+		} catch (Exception e) {
+			throw new IllegalArgumentException("Job not found with name: " + jobName, e);
+		}
+
+		// Build job parameters dynamically
+		JobParametersBuilder jobParametersBuilder = new JobParametersBuilder();
+		for (int i = 1; i < args.length; i++) { // Remaining args are key=value pairs
+			String[] keyValue = args[i].split("=");
+			if (keyValue.length == 2) {
+				jobParametersBuilder.addString(keyValue[0], keyValue[1]);
+			} else {
+				throw new IllegalArgumentException("Invalid parameter: " + args[i]);
+			}
+		}
+
+		// Launch the job
+		JobExecution jobExecution = jobLauncher.run(job, jobParametersBuilder.toJobParameters());
+		System.out.println("Job " + jobName + " executed with status: " + jobExecution.getStatus());
+	}
+
+ ```
+
+The new commande to run the application with each job :
+billing job : java -jar target/billing-job-0.0.1-SNAPSHOT.jar BillingJob input.file=billing-2023-04.csv output.file=staging/billing-report-2023-04.csv skip.file=staging/billing-data-skip-2023-04.psv data.year=2023 data.month=4
+
+voiture job : 
+java -jar target/billing-job-0.0.1-SNAPSHOT.jar VoitureJob
+
+
+![image](https://github.com/user-attachments/assets/e5fe2540-a60a-4aec-bd59-4c8e01edf99e)
+=> ALL OK 
+
+
+in the test i added a new class BillingJobApplicationV3WithMultipleJobsTests of test which compatible with the new behavior with multiple jobs 
+add the @MockBean(CommandLineRunner.class) to avoid the execution of the run method when running tests
+
+
+ ```html
+@SpringBatchTest
+@SpringBootTest
+@ExtendWith(OutputCaptureExtension.class)
+@MockBean(CommandLineRunner.class)
+class BillingJobApplicationV3WithMultipleJobsTests {
+
+
+    @Autowired
+    private JobRegistry jobRegistry;
+    @Autowired
+    private JobLauncherTestUtils jobLauncherTestUtils;
+
+    @Autowired
+    private JobRepositoryTestUtils jobRepositoryTestUtils;
+
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
+
+
+    private Job getJobByName(String jobName) {
+        try {
+            return jobRegistry.getJob(jobName);
+        } catch (NoSuchJobException e) {
+            throw new IllegalArgumentException("No job found with name: " + jobName, e);
+        }
+    }
+    @BeforeEach
+    public void setUp() {
+        this.jobRepositoryTestUtils.removeJobExecutions();
+        JdbcTestUtils.deleteFromTables(this.jdbcTemplate, "BILLING_DATA");
+
+    }
+
+
+    @Test
+    void testBillingJobExecution() throws Exception {
+        Job billingJob = getJobByName("BillingJob");
+        this.jobLauncherTestUtils.setJob(billingJob);
+
+        // given
+        JobParameters jobParameters = new JobParametersBuilder()
+               // .addString("jobName", "BillingJob")
+                .addString("input.file", "billing-2023-01.csv")
+                .addString("output.file", "staging/billing-report-2023-01.csv")
+                .addJobParameter("data.year", 2023, Integer.class)
+                .addJobParameter("data.month", 1, Integer.class)
+                .toJobParameters();
+
+        // when
+        JobExecution jobExecution = this.jobLauncherTestUtils.launchJob(jobParameters);
 
 
 
+        Assertions.assertEquals(1000, JdbcTestUtils.countRowsInTable(jdbcTemplate, "BILLING_DATA"));
+        // then
+        Assertions.assertEquals(ExitStatus.COMPLETED, jobExecution.getExitStatus());
+        Assertions.assertTrue(Files.exists(Paths.get("staging", "billing-2023-01.csv")));
+        Path billingReport = Paths.get("staging", "billing-report-2023-01.csv");
+        Assertions.assertTrue(Files.exists(billingReport));
+        Assertions.assertEquals(781, Files.lines(billingReport).count());
+    }
+
+    @Test
+    void testVoitureJobExecution() throws Exception {
+        // Get the specific job
+        Job voitureJob = getJobByName("VoitureJob");
+        this.jobLauncherTestUtils.setJob(voitureJob);
+
+        // given
+        JobParameters jobParameters = new JobParametersBuilder()
+                .toJobParameters();
+
+        // when
+        JobExecution jobExecution = this.jobLauncherTestUtils.launchJob(jobParameters);
+
+        // then
+        Assertions.assertEquals(ExitStatus.COMPLETED, jobExecution.getExitStatus());
+        // Add specific assertions for VoitureJob results
+    }
+}
+ ```
+
+![image](https://github.com/user-attachments/assets/5a212f01-17c1-4756-8a65-c744c30a760f)
 
 
 
